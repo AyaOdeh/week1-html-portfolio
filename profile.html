@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Page</title>
+</head>
+<body>
+
+<h2>Weekly Schedule</h2>
+<table border="1">
+    <tr>
+        <th>Day</th>
+        <th>Subjects</th>
+    </tr>
+    <tr>
+        <td>weeks1-2</td>
+        <td>HTML & Git & GitHub</td>
+    </tr>
+    <tr>
+        <td>weeks3-4</td>
+        <td>CSS</td>
+    </tr>
+    <tr>
+        <td>weeks5-6</td>
+        <td>JavaScript</td>
+    </tr>
+</table>
+
+<br>
+
+<h2>Personal Info Form</h2>
+<form action="#">
+    <label>Full Name:</label><br>
+    <input type="text" placeholder="enter your Full name" required autofocus name="name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" placeholder="enter your email" required name="email"><br><br>
+
+    <label>Gender:</label><br>
+    <input checked type="radio" name="gender" value="male" > Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Favorite Language:</label><br>
+    <select>
+        
+    <optgroup label="section 1">
+    <option value="html">html</option>
+<option  value="css">css</option>
+<option value="javascript">javascript</option>
+<option value="php">php</option>
+</optgroup>
+<optgroup label="section 2">
+    <option value="java">java</option>
+    <option value="c">c</option>
+     <option value="c#">c#</option>
+     <option selected value="c++">c++</option>
+     <option value="python">python</option>
+</optgroup>
+</select><br><br>
+<input list="language" name="lang">
+<datalist id="language">
+    <option value="c">
+        <option value="c#"></option>
+        <option value="c++"></option>
+        <option value="python"></option>
+        <option value="php"></option>
+        <option value="java"></option>
+        <option  value="javascript"></option>
+</datalist><br><br>
+
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
